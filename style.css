@@ -1,9 +1,12 @@
 .sfondo {   
     
-    background: linear-gradient(white , red);
-
+    background:  url(./media/mountains.png), linear-gradient(white , transparent) , url(./media/switzerland-862870_1920.jpg) ; 
+    background-size: cover;
+    background-position: center;
 }
-/* .testo-none {
-    text-decoration: none;
-    color: black;
-} */
+h1 {
+    font-size: 600%;
+    color: darkred;
+    letter-spacing: 100px;
+    font-family: "Nova Square";
+}
